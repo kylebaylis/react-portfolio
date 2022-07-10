@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
@@ -8,17 +8,31 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 
 function App() {
+  const [portfolioSelected, setPortfolioSelected] = useState(false);
+  const [contactSelected, setContactSelected] = useState(false);
+  const [resumeSelected, setResumeSelected] = useState(false);
+
   return (
     <div>
       <header>
         <Header></Header>
-        <Nav></Nav>
+        <Nav
+          portfolioSelected={portfolioSelected}
+          setPortfolioSelected={setPortfolioSelected}
+          contactSelected={contactSelected}
+          setContactSelected={setContactSelected}
+          resumeSelected={resumeSelected}
+          setResumeSelected={setResumeSelected}
+        ></Nav>
       </header>
       <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Contact></Contact>
-        <Resume></Resume>
+        {!portfolioSelected && !contactSelected && !resumeSelected ? (
+          <About></About>
+        ) : portfolioSelected && !contactSelected && !resumeSelected ? (
+          <Portfolio></Portfolio>
+        ) : contactSelected && !resumeSelected && !resumeSelected ? (
+          <Contact></Contact>
+        ) : <Resume></Resume>}
       </main>
       <footer>
         <Footer></Footer>

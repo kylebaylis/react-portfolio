@@ -1,20 +1,53 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
+    const {
+        portfolioSelected,
+        setPortfolioSelected,
+        contactSelected,
+        setContactSelected,
+        resumeSelected,
+        setResumeSelected
+    } = props;
+    
     return (
         <nav>
             <ul>
                 <li>
-                    About Me
+                    <a href="#about" onClick={() => {
+                        setPortfolioSelected(false);
+                        setContactSelected(false);
+                        setResumeSelected(false);
+                    }}>
+                        About Me
+                    </a>
                 </li>
                 <li>
-                    Portfolio
+                    <a href="#portfolio" onClick={() => {
+                        setPortfolioSelected(true);
+                        setContactSelected(false);
+                        setResumeSelected(false);
+                    }}>
+                        Portfolio
+                    </a>
                 </li>
                 <li>
+                    <a href="#contact" onClick={() => {
+                        setContactSelected(true);
+                        setPortfolioSelected(false);
+                        setResumeSelected(false);
+                    }}>
                     Contact
+                    </a>
                 </li>
                 <li>
+                    <a href="#resume" onClick={() => {
+                        setResumeSelected(true);
+                        setPortfolioSelected(false);
+                        setContactSelected(false);                        
+                    }}>
                     Resume
+                    </a>
                 </li>
             </ul>
         </nav>
