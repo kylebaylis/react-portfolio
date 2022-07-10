@@ -5,13 +5,17 @@ function Footer() {
         <footer>
             <ul>
                 <li>
-                    GitHub link
+                    <a href="https://github.com/kylebaylis" target="_blank" rel="noreferrer">
+                        GitHub
+                    </a>
                 </li>
+                    <a href="https://www.linkedin.com/in/kylebaylis/" target="_blank" rel="noreferrer">
+                        LinkedIn
+                    </a>
                 <li>
-                    LinkedIn link
-                </li>
-                <li>
-                    Twitter link (homepage)
+                    <a href="https://twitter.com/kylebaylis" target="_blank" rel="noreferrer">
+                        Twitter
+                    </a>
                 </li>
             </ul>
         </footer>
