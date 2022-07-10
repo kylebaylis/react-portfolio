@@ -9,9 +9,11 @@ function Footer() {
                         GitHub
                     </a>
                 </li>
+                <li>
                     <a href="https://www.linkedin.com/in/kylebaylis/" target="_blank" rel="noreferrer">
                         LinkedIn
                     </a>
+                </li>
                 <li>
                     <a href="https://twitter.com/kylebaylis" target="_blank" rel="noreferrer">
                         Twitter

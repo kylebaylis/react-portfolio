@@ -2,11 +2,8 @@ import React from 'react';
 
 function Nav(props) {
     const {
-        portfolioSelected,
         setPortfolioSelected,
-        contactSelected,
         setContactSelected,
-        resumeSelected,
         setResumeSelected
     } = props;
     
