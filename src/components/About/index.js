@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
     return (
-        <div>
+        <section>
             <h2>About Me</h2>
             <img src={require(`../../assets/images/egg.jpg`)} alt="egg" />
             <p>
@@ -14,8 +14,7 @@ function About() {
                 erat volutpat. Cras vel placerat ipsum. Phasellus luctus, nunc a vestibulum viverra, nisl leo mollis nunc, 
                 ultrices ultrices nisi mauris ut eros. Nam.
             </p>
-        </div>
-
+        </section>
     );
 }
 
