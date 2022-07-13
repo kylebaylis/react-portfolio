@@ -16,7 +16,8 @@ function Portfolio() {
                             <Card.Img src={require(`../../assets/images/egg.jpg`)} />
                             <Card.Body>
                                 <Card.Title>Project</Card.Title>
-                                <Button>Link</Button>
+                                <Button>Application</Button>
+                                <Button>GitHub</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -25,27 +26,8 @@ function Portfolio() {
                             <Card.Img src={require(`../../assets/images/egg.jpg`)} />
                             <Card.Body>
                                 <Card.Title>Project</Card.Title>
-                                <Button>Link</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <Card>
-                            <Card.Img src={require(`../../assets/images/egg.jpg`)} />
-                            <Card.Body>
-                                <Card.Title>Project</Card.Title>
-                                <Button>Link</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card>
-                            <Card.Img src={require(`../../assets/images/egg.jpg`)} />
-                            <Card.Body>
-                                <Card.Title>Project</Card.Title>
-                                <Button>Link</Button>
+                                <Button>Application</Button>
+                                <Button>GitHub</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -56,7 +38,8 @@ function Portfolio() {
                             <Card.Img src={require(`../../assets/images/egg.jpg`)} />
                             <Card.Body>
                                 <Card.Title>Project</Card.Title>
-                                <Button>Link</Button>
+                                <Button>Application</Button>
+                                <Button>GitHub</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -65,7 +48,30 @@ function Portfolio() {
                             <Card.Img src={require(`../../assets/images/egg.jpg`)} />
                             <Card.Body>
                                 <Card.Title>Project</Card.Title>
-                                <Button>Link</Button>
+                                <Button>Application</Button>
+                                <Button>GitHub</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <Card>
+                            <Card.Img src={require(`../../assets/images/egg.jpg`)} />
+                            <Card.Body>
+                                <Card.Title>Project</Card.Title>
+                                <Button>Application</Button>
+                                <Button>GitHub</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card>
+                            <Card.Img src={require(`../../assets/images/egg.jpg`)} />
+                            <Card.Body>
+                                <Card.Title>Project</Card.Title>
+                                <Button>Application</Button>
+                                <Button>GitHub</Button>
                             </Card.Body>
                         </Card>
                     </Col>
