@@ -1,4 +1,7 @@
 import React from 'react';
+import {AiFillGithub} from 'react-icons/ai';
+import {AiFillLinkedin} from 'react-icons/ai';
+import {AiFillTwitterCircle} from 'react-icons/ai';
 
 function Footer() {
     return (
@@ -6,17 +9,17 @@ function Footer() {
             <ul>
                 <li>
                     <a href="https://github.com/kylebaylis" target="_blank" rel="noreferrer">
-                        GitHub
+                        <AiFillGithub size={64} />
                     </a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/kylebaylis/" target="_blank" rel="noreferrer">
-                        LinkedIn
+                        <AiFillLinkedin size={64} />
                     </a>
                 </li>
                 <li>
                     <a href="https://twitter.com/kylebaylis" target="_blank" rel="noreferrer">
-                        Twitter
+                        <AiFillTwitterCircle size={64} />
                     </a>
                 </li>
             </ul>
