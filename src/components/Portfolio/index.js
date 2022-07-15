@@ -13,7 +13,7 @@ function Portfolio() {
                 <Row>
                     <Col>
                         <Card className='card'>
-                            <Card.Img src={require(`../../assets/images/egg.jpg`)} />
+                            <Card.Img src={require(`../../assets/images/runbuddy.png`)} className='cardimg'/>
                             <Card.Body>
                                 <Card.Title>Run Buddy</Card.Title>
                                 <Button><a className='portbtn' href="https://kylebaylis.github.io/run-buddy/" target="_blank" rel="noreferrer">Application</a></Button>
@@ -23,7 +23,7 @@ function Portfolio() {
                     </Col>
                     <Col>
                         <Card className='card'>
-                            <Card.Img src={require(`../../assets/images/egg.jpg`)} />
+                            <Card.Img src={require(`../../assets/images/passgen.png`)} className='cardimg'/>
                             <Card.Body>
                                 <Card.Title>Password Generator</Card.Title>
                                 <Button><a className='portbtn' href="https://kylebaylis.github.io/password-generator/" target="_blank" rel="noreferrer">Application</a></Button>
@@ -35,7 +35,7 @@ function Portfolio() {
                 <Row>
                     <Col>
                         <Card className='card'>
-                            <Card.Img src={require(`../../assets/images/egg.jpg`)} />
+                            <Card.Img src={require(`../../assets/images/codequiz.png`)} className='cardimg'/>
                             <Card.Body>
                                 <Card.Title>Code Quiz</Card.Title>
                                 <Button><a className='portbtn' href="https://kylebaylis.github.io/code-quiz/" target="_blank" rel="noreferrer">Application</a></Button>
@@ -45,7 +45,7 @@ function Portfolio() {
                     </Col>
                     <Col>
                         <Card className='card'>
-                            <Card.Img src={require(`../../assets/images/egg.jpg`)} />
+                            <Card.Img src={require(`../../assets/images/work.png`)} className='cardimg'/>
                             <Card.Body>
                                 <Card.Title>Workday Scheduler</Card.Title>
                                 <Button><a className='portbtn' href="https://kylebaylis.github.io/workday-scheduler/" target="_blank" rel="noreferrer">Application</a></Button>
@@ -57,7 +57,7 @@ function Portfolio() {
                 <Row>
                     <Col>
                         <Card className='card'>
-                            <Card.Img src={require(`../../assets/images/egg.jpg`)} />
+                            <Card.Img src={require(`../../assets/images/weather.png`)} className='cardimg'/>
                             <Card.Body>
                                 <Card.Title>Weather Dashboard</Card.Title>
                                 <Button><a className='portbtn' href="https://kylebaylis.github.io/Challenge6-WeatherDash/" target="_blank" rel="noreferrer">Application</a></Button>
@@ -67,7 +67,7 @@ function Portfolio() {
                     </Col>
                     <Col>
                         <Card className='card'>
-                            <Card.Img src={require(`../../assets/images/egg.jpg`)} />
+                            <Card.Img src={require(`../../assets/images/budget.png`)} className='cardimg'/>
                             <Card.Body>
                                 <Card.Title>Budget Tracker</Card.Title>
                                 <Button><a className='portbtn' href="https://gentle-basin-85791.herokuapp.com/" target="_blank" rel="noreferrer">Application</a></Button>
