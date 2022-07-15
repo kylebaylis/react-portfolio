@@ -9,7 +9,7 @@ function Nav(props) {
     
     return (
         <nav>
-            <ul>
+            <ul className="flex-row">
                 <li>
                     <a href="#about" onClick={() => {
                         setPortfolioSelected(false);

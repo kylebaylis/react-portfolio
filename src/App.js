@@ -13,8 +13,8 @@ function App() {
   const [resumeSelected, setResumeSelected] = useState(false);
 
   return (
-    <div>
-      <header>
+    <div className='body'>
+      <header className="flex-row">
         <Header></Header>
         <Nav
           portfolioSelected={portfolioSelected}

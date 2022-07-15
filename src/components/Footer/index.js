@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer>
+        <section className='centered'>
             <ul>
                 <li>
                     <a href="https://github.com/kylebaylis" target="_blank" rel="noreferrer">
@@ -20,7 +20,7 @@ function Footer() {
                     </a>
                 </li>
             </ul>
-        </footer>
+        </section>
     );
 }
 

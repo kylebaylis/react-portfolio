@@ -2,9 +2,9 @@ import React from 'react';
 
 function Header() {
     return (
-        <header>
+        <section>
             <h1>Kyle Baylis</h1>
-        </header>
+        </section>
     );
 }
 

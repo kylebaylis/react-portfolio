@@ -9,6 +9,7 @@ function Resume() {
             <ul>
                 <li>HTML/CSS</li>
                 <li>JavaScript</li>
+                <li>SQL</li>
                 <li>MERN Stack</li>
             </ul>
         </section>
