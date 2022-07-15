@@ -4,9 +4,9 @@ import Form from 'react-bootstrap/Form';
 
 function Contact() {
     return(
-        <section>
+        <section className='contact'>
             <h2>Contact Information</h2>
-            <Form>
+            <Form className='form'>
                 <Form.Group controlId="formBasicName">
                     <Form.Label>Name</Form.Label>
                     <Form.Control type="text" placeholder="Enter Name" />
@@ -19,7 +19,7 @@ function Contact() {
                     <Form.Label>Message</Form.Label>
                     <Form.Control as="textarea" placeholder="Enter Message" />
                 </Form.Group>
-                <Button type="submit">Submit</Button>                  
+                <Button type="submit" className='subbtn'>Submit</Button>                  
             </Form>
         </section>
     );

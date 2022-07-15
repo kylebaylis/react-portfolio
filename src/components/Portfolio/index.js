@@ -7,12 +7,12 @@ import Card from 'react-bootstrap/Card';
 
 function Portfolio() {
     return (
-        <div>
+        <div className='portfolio'>
             <h2>My Portfolio</h2>
-            <Container>
+            <Container className='portCon'>
                 <Row>
                     <Col>
-                        <Card>
+                        <Card className='card'>
                             <Card.Img src={require(`../../assets/images/egg.jpg`)} />
                             <Card.Body>
                                 <Card.Title>Project</Card.Title>
@@ -22,7 +22,7 @@ function Portfolio() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card>
+                        <Card className='card'>
                             <Card.Img src={require(`../../assets/images/egg.jpg`)} />
                             <Card.Body>
                                 <Card.Title>Project</Card.Title>
@@ -34,7 +34,7 @@ function Portfolio() {
                 </Row>
                 <Row>
                     <Col>
-                        <Card>
+                        <Card className='card'>
                             <Card.Img src={require(`../../assets/images/egg.jpg`)} />
                             <Card.Body>
                                 <Card.Title>Project</Card.Title>
@@ -44,7 +44,7 @@ function Portfolio() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card>
+                        <Card className='card'>
                             <Card.Img src={require(`../../assets/images/egg.jpg`)} />
                             <Card.Body>
                                 <Card.Title>Project</Card.Title>
@@ -56,7 +56,7 @@ function Portfolio() {
                 </Row>
                 <Row>
                     <Col>
-                        <Card>
+                        <Card className='card'>
                             <Card.Img src={require(`../../assets/images/egg.jpg`)} />
                             <Card.Body>
                                 <Card.Title>Project</Card.Title>
@@ -66,7 +66,7 @@ function Portfolio() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card>
+                        <Card className='card'>
                             <Card.Img src={require(`../../assets/images/egg.jpg`)} />
                             <Card.Body>
                                 <Card.Title>Project</Card.Title>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
     return (
-        <section>
+        <section className='about'>
             <h2>About Me</h2>
             <img src={require(`../../assets/images/egg.jpg`)} alt="egg" />
             <p>
